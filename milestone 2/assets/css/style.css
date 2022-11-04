@@ -1,0 +1,112 @@
+:root {
+    --bol-lightgrey: #eaeaea;
+    --bol-notifyBlue: #8edafc;
+    --bol-greenMessage: #d5f9ba;
+    --bol-beige: #f3eeea;
+    --bol-selected: #e9ebeb;
+    --bol-darkgrey: #b1b1b1;
+    --bol-bg-green: #078f89;
+    --bol-bg-beige: #dcdbd2;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.font-small {
+    font-size: 12px;
+}
+
+.font-big {
+    font-size: 18px;
+}
+
+
+#app {
+   
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+
+
+
+.header-app {
+    background-color: var(--bol-lightgrey);
+}
+
+.notify-app {
+    background-color: var(--bol-notifyBlue);
+}
+
+.text-app {
+    background-color: var(--bol-beige);
+   
+}
+
+
+.icons-color {
+    color: var(--bol-darkgrey);
+}
+
+p {
+    color: var(--bol-darkgrey);
+}
+
+
+#bell {
+    color: var(--bol-notifyBlue);
+}
+
+#bg_messages {
+    background-image: url("../img/mine.jpg");
+    background-position: center;
+    background-repeat: repeat;
+    background-size: auto;
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+
+}
+
+.avatar{
+    max-width: 20%;
+    padding-left: 1rem;
+ 
+ }
+ .text{
+     align-self: center;
+ }
+ .users{
+    background-color: white;
+ }
+ .active{
+    background-color: var(--bol-selected);
+ }
+.w_15 {
+    width: 15%;
+}
+
+.h_10 {
+    height: 10%;
+}
+
+.sent {
+    align-self: flex-end;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: var(--bol-greenMessage);
+    margin: 1rem;
+}
+
+.received {
+    align-self: flex-start;
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    margin: 1rem;
+}
