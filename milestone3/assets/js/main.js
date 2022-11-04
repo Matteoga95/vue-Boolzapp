@@ -196,6 +196,7 @@ createApp({
             }
 
             this.contacts[this.activeContact].messages.push(newMess)
+          
 
         },
         addNewMessage() {
@@ -216,7 +217,7 @@ createApp({
 
             }
             //dopo un secondo invio la risposta automatica
-            setTimeout(this.addAutomaticResponse(), 1000);
+            setTimeout(this.addAutomaticResponse, 1000);
 
             // pulisco la variabile del messaggio
             this.newMessage = '';
